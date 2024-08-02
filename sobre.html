@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="styles/paginaSobremim/style.css">
+       <!--GOOGLE FONTS-->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+       <!--FIM GOOGLE FONTS-->
+       <!--BOOTSSTRAP ICONS-->
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+       <!--FIM BOOTSSTRAP ICONS-->
+       <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+</head>
+<body>
+    <header class="topo">
+        <section class="sobre__banner">
+            <svg viewBox="0 0 1320 300">
+              <text x="40%" y="5%" dy="1px" text-anchor="middle">Alan Goveia Alves</text>
+            </svg>
+        </section>
+        <div class="links_topo">
+            <ul class="links_topo-link">
+                <li><a class="link_topo" href="index.html">Início</a></li>
+                <li><a class="link_topo" href="sobre.html">Sobre mim</a></li>
+                <li><a class="link_topo" href="projetos.html">Projetos</a></li>
+                <li><a class="link_topo" href="#">Currículo</a></li>
+            </ul>
+        </div>
+        <div class="btn-contato">
+            <a href="#">
+                <button>Contato</button>
+            </a>
+        </div>
+        
+        <div class="btn-abrir-menu" id="btn-menu">
+            <i class="bi bi-list"></i>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <i class="bi bi-x-lg"></i>
+            </div>
+             <nav>
+                <ul>
+                    <li><a class="link_topo" href="index.html">Início</a></li>
+                    <li><a class="link_topo" href="sobre.html">Sobre mim</a></li>
+                    <li><a class="link_topo" href="projetos.html">Projetos</a></li>
+                    <li><a class="link_topo" href="#">Currículo</a></li>
+                </ul>
+            </nav>
+        </div><!--menu-mobile-->
+        <div class="overlay-menu" id="overlay-menu"></div>
+   
+</header> 
+<main>
+    <section class="topo-do-site">
+        <div class="interface">
+            <div class="flex">
+                <div class="container_apresentacao">
+                    <div class="foto-perfil">
+                        <img src="imagens/pessoa.png" alt="">
+                        </div>
+                            <div class="texto_apresentacao">
+                                <h2 class="apresentacao_bemvindas">Muito prazer,<span class="apresentacao_destaque"><br>Sou o Alan Goveia Alves.</h2> <BR>
+                                <h2 class="apresentacao apresentacao_interesse">Meu interesse por tecnologia começou no ensino médio, na época da pandemia, foi dai que conheci a programação.<br>Comecei a procurar  sobre o assunto, conheci as linguagens de programação. E fiz o meu primeiro programa o famoso “olá mundo”.<br> 
+                                Depois disso cada escrita de código foi uma descoberta nova. </h2> <br><br>
+                            </div>
+                    </div>
+                </div>
+            </div>  
+    </section>
+    <section class="especialidades">
+        <div class="interface">
+            <h2 class="sobre_destaque">Mais informações</h2>
+            <div class="flex">
+                <div class="especialidades-box">
+                    <i class="fi fi-rr-microchip"></i>
+                   
+                   <h3 class="tituloEspecialidade">Tecnologias</h3>
+               
+                   <img src="imagens/css (2).svg" alt="">
+                   <img src="imagens/html (2).svg" alt="">
+                   <img src="imagens/mysql.svg" alt="">
+                   <img src="imagens/javascript1.svg" alt="">
+                   <img src="imagens/git 1.svg" alt="">
+                   <img src="imagens/github (1) 1 (1).svg" alt="">
+                   <img src="imagens/git 1 (1).svg" alt="">
+                   
+                </div><!--especialidades-box"-->
+                <div class="especialidades-box">
+                    <i class="fi fi-rr-diploma"></i>
+                   <h3>Formação</h3>
+                   <p class="texto_especialidade">Estou cursando ciência da computação, e também faço diversos cursos na Alura. Busco uma oportunidade de trabalho na área. Ao longo do tempo, adquiri um amplo conhecimento de habilidades técnicas, incluindo proficiência em linguagem com o JavaScript, além de conhecimentos em HTML, CSS, Git, GitHub e SQL. Meu comprometimento com a aprendizagem contínua é evidente em várias certificações que tenho. </p>
+                </div><!--especialidades-box"-->
+            </div><!--flex-->
+        </div><!--interface-->
+    </section><!--especialidades-->
+    
+</main>
+
+<footer class="rodape">
+    <div class="rodape_conteudo">
+        <div class="interface">
+        <div class="borda">
+        <div class="flex">
+            <section class="sobre__banner">
+                <svg viewBox="0 0 1320 300">
+                  <text x="30%" y="2%" dy="1px" text-anchor="middle">Alan Goveia Alves</text>
+                </svg>
+              </section>
+        <div class="btn-social">
+            <a class="icone_topo" href="#"><button><i class="bi bi-linkedin"></i></button></a>
+            <a class="icone_topo" href="#"><button><i class="bi bi-github"></i></button></a>
+            <a class="icone_topo" href="#"><button><i class="bi bi-envelope"></i></button></a>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</footer>
+</body>
+<script src="menu.js"></script>
+</html>

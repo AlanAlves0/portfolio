@@ -1,0 +1,61 @@
+.container_apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.foto-perfil{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.texto_apresentacao{
+    padding: 40px 4%;
+}
+.apresentacao{
+    margin: 0 auto;
+    color: var(--cor-branco);
+    font-size: 25px;
+}
+
+.apresentacao_destaque{
+    color: var(--cor-verde);
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.btn-social{
+    margin: 15px 0;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--cor-verde);
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    
+    transition: .2s;
+    
+
+}
+
+.btn-social button:hover{
+    box-shadow: 0px 0px 8px var(--cor-verde);
+    transform: scale(1.05);
+}
+
+
+

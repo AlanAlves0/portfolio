@@ -1,0 +1,13 @@
+.rodape .rodape_conteudo .flex{
+    justify-content: space-between;
+}
+
+.nome_rodape{
+    color: var(--cor-branco);
+    font-size: 40px;
+    margin: 30px;
+}
+
+.borda{
+    border-top: 2px solid var(--cor-verde);
+}

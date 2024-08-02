@@ -1,0 +1,61 @@
+.meio{
+    margin: 4% 0;
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff21;
+}
+
+.meio .flex{
+    justify-content: space-around;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.projeto-meio{
+    color: var(--cor-branco);
+    text-align: center;
+
+}
+.meio-destaque{
+    color: var(--cor-verde);
+    font-size: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+.img-port{
+    width: 360px;
+    height: 360px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 8s;
+    cursor: pointer;
+    border-radius: 40px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.img-port:hover{
+    background-position: 100% 100%;
+}
+
+.overlay{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000096;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: .5s;
+   
+}
+.overlay:hover{
+    opacity: 1;
+}

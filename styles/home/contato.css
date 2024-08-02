@@ -1,0 +1,19 @@
+.contato_texto{
+    color: var(--cor-branco);
+    margin: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contato{
+    margin-bottom: 80px;
+}
+
+section.contato .btn-social{
+    text-align: center;
+}
+
+section.contato .btn-social button{
+    width: 200px;
+}
+

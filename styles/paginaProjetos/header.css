@@ -1,0 +1,48 @@
+.topo{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo h1{
+    color: var(--cor-branco);
+    font-size: 35px;
+    margin-left: 40px;
+    
+}
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00FF08;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.links_topo-link {
+    list-style-type: none;
+    display: flex;
+
+}
+
+.link_topo{
+    padding: 10px;
+    text-decoration: none;
+    color: #ffffff8f;
+    display: inline-block;
+    font-size: 20px;
+    transition: .2s;
+
+}
+
+.link_topo:hover{
+    color: var(--cor-branco);
+    transform: scale(1.05);
+}
+
+.btn-abrir-menu{
+    display: none;
+}

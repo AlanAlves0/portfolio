@@ -1,0 +1,32 @@
+@import url('../resete.css');
+@import url('header.css');
+@import url('rodape.css');
+@import url('apresentação.css');
+@import url('mobile.css');
+
+
+*{
+    
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+:root{
+    --cor-verde: #06FF0F;
+    --cor-branco: #ffffff;
+    
+}

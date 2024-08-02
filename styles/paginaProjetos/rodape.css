@@ -1,0 +1,83 @@
+.rodape .rodape_conteudo .flex{
+    justify-content: space-between;
+}
+
+.nome_rodape{
+    color: var(--cor-branco);
+    font-size: 40px;
+    margin: 30px;
+}
+
+.borda{
+    border-top: 2px solid var(--cor-verde);
+}
+
+.btn-social{
+    margin: 15px 0;
+}
+
+.btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--cor-verde);
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 10px;
+    
+    transition: .2s;
+    
+
+}
+
+.btn-social button:hover{
+    box-shadow: 0px 0px 8px var(--cor-verde);
+    transform: scale(1.05);
+}
+
+.sobre__banner{
+    width: 40%;
+    height: 25vh;
+}
+
+svg{
+    display: absolute;
+    width: 70%;
+    height: 70%;
+    
+}
+
+svg text{
+    font-family: "Cinzel Decorative", serif;
+    font-size: 100px;
+    font-weight: bold;
+    animation: stroke 7s infinite alternate;
+}
+
+@keyframes stroke {
+    0%{
+        fill: rgba(246, 245, 247, 0);
+        stroke: rgb(253, 253, 253);
+        stroke-width: 2;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+    }
+    70%{
+        fill: rgba(231, 225, 235, 0);
+        stroke: rgb(238, 236, 236);
+    }
+    80%{
+        fill: rgba(237, 231, 240, 0);
+        stroke: rgb(235, 230, 230);
+        stroke-width: 3;
+    }
+    100%{
+        fill: rgb(17, 233, 46);
+        stroke: rgba(35, 214, 89, 0);
+        stroke-width: 2;
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+    }
+
+}

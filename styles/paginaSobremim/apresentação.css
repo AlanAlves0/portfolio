@@ -1,0 +1,142 @@
+
+.container_apresentacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.foto-perfil{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
+
+.texto_apresentacao{
+    padding: 40px 4%;
+}
+.apresentacao{
+    margin: 0 auto;
+    color: var(--cor-branco);
+    font-size: 25px;
+}
+
+.apresentacao_destaque{
+    color: var(--cor-verde);
+    text-align: center;
+    font-size: 35px;
+    
+}
+
+.apresentacao_bemvindas{
+    margin: 0 auto;
+    color: var(--cor-branco);
+    font-size: 35px;
+}
+
+.apresentacao_interesse{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.curiosidades{
+    margin: 4% 0;
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff21;
+}
+
+.sobre_destaque{
+    color: var(--cor-verde);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*ESTILO ESPECIALIDADES*/   
+section.especialidades{
+    margin: 4% 0;
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff21;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+.especialidades .especialidades-box{
+    color: #ffffff;
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 20px;
+    transition: .6s;
+}
+.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #130f0f6b;
+}
+
+.especialidades .especialidades-box i{
+    font-size: 70px;
+    color: #00FF08;
+}
+
+.especialidades .especialidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+
+.texto_especialidade{
+    text-align: justify;
+}
+
+.sobre__banner{
+    width: 40%;
+    height: 25vh;
+}
+
+svg{
+    display: absolute;
+    width: 70%;
+    height: 70%;
+    
+}
+
+svg text{
+    font-family: "Cinzel Decorative", serif;
+    font-size: 100px;
+    font-weight: bold;
+    animation: stroke 7s infinite alternate;
+}
+
+@keyframes stroke {
+    0%{
+        fill: rgba(246, 245, 247, 0);
+        stroke: rgb(253, 253, 253);
+        stroke-width: 2;
+        stroke-dashoffset: 25%;
+        stroke-dasharray: 0 50%;
+    }
+    70%{
+        fill: rgba(231, 225, 235, 0);
+        stroke: rgb(238, 236, 236);
+    }
+    80%{
+        fill: rgba(237, 231, 240, 0);
+        stroke: rgb(235, 230, 230);
+        stroke-width: 3;
+    }
+    100%{
+        fill: rgb(17, 233, 46);
+        stroke: rgba(35, 214, 89, 0);
+        stroke-width: 2;
+        stroke-dashoffset: -25%;
+        stroke-dasharray: 50% 0;
+    }
+
+}
