@@ -46,7 +46,6 @@
     height: 100%;
     background-color: #00000096;
     border-radius: 40px;
-    display: flex;
     align-items: center;
     justify-content: center;
     font-size: 24px;
@@ -54,8 +53,25 @@
     color: #fff;
     opacity: 0;
     transition: .5s;
+
    
 }
 .overlay:hover{
     opacity: 1;
+}
+
+.texto{
+    text-align: center;
+    margin: 40px;
+}
+.overlay_titulo{
+    justify-content: center;
+    margin-bottom: 10px;
+    color: var(--cor-verde);
+    font-size: 27px;
+}
+
+.overlay_texto{
+    text-align: left;
+    
 }

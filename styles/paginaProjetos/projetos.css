@@ -102,3 +102,19 @@
 .overlay:hover{
   opacity: 1;
 }
+
+.texto{
+  text-align: center;
+  margin: 40px;
+}
+.overlay_titulo{
+  justify-content: center;
+  margin-bottom: 10px;
+  color: var(--cor-verde);
+  font-size: 27px;
+}
+
+.overlay_texto{
+  text-align: left;
+  
+}
