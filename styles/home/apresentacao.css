@@ -1,3 +1,7 @@
+.perfil{
+    box-shadow: 0px 0px 45px var(--cor-verde);
+}
+
 .container_apresentacao{
     display: flex;
     align-items: center;
@@ -56,6 +60,60 @@
     box-shadow: 0px 0px 8px var(--cor-verde);
     transform: scale(1.05);
 }
+
+.botoes{
+    text-align: center;   
+    text-decoration: none;
+  
+}
+
+.botao_overlay button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    transition: .2s;
+    
+}
+
+.botao_overlay button:hover{
+    box-shadow: 0px 0px 8px var(--cor-verde);
+    transform: scale(1.05);
+}
+
+.botao_overlay2 button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black
+}
+
+.botao_overlay2 button:hover{
+    box-shadow: 0px 0px 8px var(--cor-verde);
+    transform: scale(1.05);
+}
+
+.books{
+    margin-top: 90px;
+}
+
+.bank{
+    margin-top: 140px;
+}
+
+.plus{
+    margin-top: 100px;
+}
+
+
+
 
 
 
