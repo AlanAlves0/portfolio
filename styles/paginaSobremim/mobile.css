@@ -77,8 +77,6 @@
         flex-direction: column;
     }
 
-    .sw
-
     .btn-social .icone_topo button{
         padding: 12px;
      }
@@ -92,5 +90,8 @@
     }
     .btn-abrir-menu{
         display: block;
+    }
+    .perfil{
+        width: 350px;
     }
 }
