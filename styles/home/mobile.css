@@ -109,4 +109,14 @@
     .perfil{
         width: 350px;
     }
+
+    .botao_overlay button{
+        margin-bottom: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .botao_overlay2{
+        display: none;
+    }
 }
